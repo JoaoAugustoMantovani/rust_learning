@@ -16,12 +16,12 @@ fn main() {
     let divide = divide(4, 2);
     //let res = divide.expect("we crashed");
 
-    '''
+    /*
     This is a pretty secure way to verify results using match.
-    '''
+    */
     match divide {
-        Ok(v) => println!("{}", v)
-        Err(v) => println!("{:?", v)
+        Ok(v) => println!("{}", v),
+        Err(v) => println!("{:?}", v)
     }
 
     /*
