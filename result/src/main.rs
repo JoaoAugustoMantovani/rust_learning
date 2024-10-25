@@ -24,29 +24,26 @@ fn main() {
         Err(v) => println!("{:?", v)
     }
 
-    '''
+    /*
     Another way is checking using if statement the divide function and
     if is ok then unwrap the value.
-    '''
+     */
     // if divide.is_ok(){
     //     println!("{}", divide.unwrap());
     // }
 
-    '''
+    /* 
     Or we can simply run the print, and if there is an error it will
     crash the program.
-    '''
+    */
     // println!("\n{}", divide.unwrap());
 
-    '''
+    /*
     We can use the unwrap_or function to return a default value if 
     the function fails.
-    '''
+     */
     //  println!("\n{:?}", divide.unwrap_or(100));
 
-    '''
-    Uncommenting the "let res" in main function top, we can set an
-    except to default the output for errors.
-    '''
+ 
     //  println!("\n{:?}", res);
 }
